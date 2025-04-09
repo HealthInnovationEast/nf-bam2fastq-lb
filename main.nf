@@ -55,7 +55,9 @@ allowedParameters = ['input', 'outputDir',
                      'sortFastqs', 'sortMemory', 'sortThreads',
                      'compressIntermediateFastqs', 'compressorThreads',
                      'excludedFlags', 'checkIntermediateFastqMd5',
-                     'debug', 'publishMode']
+                     'debug', 'publishMode',
+                     'lifebit_platform_executor', 'lifebit_platform_cloud_region', 'lifebit_platform_deployment'
+                     ]
 
 checkParameters(params, allowedParameters)
 
